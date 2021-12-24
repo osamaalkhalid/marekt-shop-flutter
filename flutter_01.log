@@ -1,0 +1,48 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --no-color run --machine --track-widget-creation --device-id=emulator-5554 --start-paused --dart-define=flutter.inspector.structuredErrors=true --devtools-server-address=http://127.0.0.1:9102 lib\main.dart
+
+## exception
+
+SentinelException: [Sentinel kind: Collected, valueAsString: <collected>] from getIsolate()
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel dev, 1.27.0-8.0.pre, on Microsoft Windows [Version 10.0.19042.867], locale en-US)
+    • Flutter version 1.27.0-8.0.pre at C:\flutter
+    • Framework revision b7d4806243 (7 weeks ago), 2021-02-19 09:22:45 -0800
+    • Engine revision 6993cb229b
+    • Dart version 2.13.0 (build 2.13.0-30.0.dev)
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
+    • Android SDK at C:\Users\The-Lord\AppData\Local\Android\sdk
+    • Platform android-30, build-tools 30.0.3
+    • Java binary at: C:\Program Files\Android\Android Studio\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b01)
+    • All Android licenses accepted.
+
+[✓] Chrome - develop for the web
+    • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[✓] Android Studio (version 4.1.0)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b01)
+
+[✓] Connected device (3 available)
+    • Android SDK built for x86 (mobile) • emulator-5554 • android-x86    • Android 10 (API 29) (emulator)
+    • Chrome (web)                       • chrome        • web-javascript • Google Chrome 89.0.4389.114
+    • Edge (web)                         • edge          • web-javascript • Microsoft Edge 89.0.774.68
+
+• No issues found!
+```

@@ -1,0 +1,4 @@
+#Sat Apr 10 23:39:49 EET 2021
+base.0=C\:\\Users\\The-Lord\\Desktop\\market\\pizza_app_design-main\\build\\app\\intermediates\\transforms\\r8\\release\\0\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
